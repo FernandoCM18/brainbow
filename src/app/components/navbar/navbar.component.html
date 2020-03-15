@@ -1,0 +1,150 @@
+<nav>
+    <div class="contenedor-menu">
+      <a routerLink="/home">
+        <img src="assets/Logo-brainbow/Brainbow_logo.png" width="150" height="40" alt="Brainbow_logo">
+      </a>
+      <ul class="menu">
+        <li>
+          <a routerLink="/valuar-inmueble" routerLinkActive="active">
+            Valuar un inmueble
+          </a>
+        </li>
+        <li>
+          <a [routerLink]="['/valor-inmobiliario' || '/reporte-brainbow' || '/seguro-hogar-online' || '/hipoteca-online']" routerLinkActive="active">
+            Servicios
+          </a>
+          <ul class="submenu">
+            <li>
+              <a routerLink="valor-inmobiliario" routerLinkActive="active">
+                <img src="assets/servicios/valor.svg" alt="">
+                <br>
+                VALOR
+                <br>
+                INMOBILIARIO
+              </a>
+            </li>
+            <li>
+              <a routerLink="reporte-brainbow" routerLinkActive="active">
+                <img src="assets/servicios/reporte.svg" alt="">
+                <br>
+                REPORTE
+                <br>
+                BRAINBOW
+              </a>
+            </li>
+            <li>
+              <a routerLink="seguro-hogar-online" routerLinkActive="active">
+                <img src="assets/servicios/seguro.svg" alt="">
+                <br>
+                SEGURO
+                <br>
+                HOGAR ONLINE
+              </a>
+            </li>
+            <li>
+              <a routerLink="hipoteca-online" routerLinkActive="active">
+                <img src="assets/servicios/hipoteca.svg" alt="">
+                <br>
+                HIPOTECA
+                <br>
+                ONLINE
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a [routerLink]="['/sector-inmobiliario' || '/seguros']" routerLinkActive="active">
+            Empresa
+          </a>
+          <ul class="submenu submenu-empresa">
+            <li style="margin-right: 30px;">
+              <a routerLink="sector-inmobiliario">
+                <img src="assets/valuar-inmueble/compra-venta.svg" alt="">
+                <br>
+                SECTOR
+                <br>
+                INMOBILIARIO
+              </a>
+            </li>
+            <li>
+              <a routerLink="sector-inmobiliario">
+                <img src="assets/valuar-inmueble/compra-venta.svg" alt="">
+                <br>
+                SEGUROS
+              </a>
+            </li>
+            <div class="prueba">
+                <p>¿Quieres ver todo el potencial de Brainbow?</p>
+                <a href="">SOLICITA UNA PRUEBA</a>
+            </div>
+          </ul>
+        </li>
+        <li>
+          <a routerLink="/acerca-de" routerLinkActive="active">
+            Acerca de
+          </a>
+        </li>
+        <li>
+          <a routerLink="/contacto" routerLinkActive="active">
+            Contacto
+          </a>
+        </li>
+        <li class="btn-iniciar-sesion">
+          <a class="">
+            Iniciar Sesión
+          </a>
+        </li>
+      </ul>
+    </div>
+</nav>
+<!-- <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" routerLink="/home">
+    <img src="assets/Logo-brainbow/Brainbow_logo.png" width="150" height="40" alt="Brainbow_logo">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav d-flex justify-content-end" style="width: 100%;">
+
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="/valuar-inmueble">Valuar un inmueble</a>
+      </li>
+
+      <li class="nav-item dropdown" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['/valor-inmobiliario' || '/reporte-brainbow' || '/seguro-hogar-online' || '/hipoteca-online']" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Servicios
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" routerLink="/valor-inmobiliario">Valor inmobiliario</a></li>
+          <li><a class="dropdown-item" routerLink="/reporte-brainbow">Reporte brainbow</a></li>
+          <li><a class="dropdown-item" routerLink="/seguro-hogar-online">Seguro hogar online</a></li>
+          <li><a class="dropdown-item" routerLink="/hipoteca-online">Hipoteca online</a></li>
+
+        </ul>
+      </li>
+
+      <li class="nav-item dropdown" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['/sector-inmobiliario' || '/seguros']" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Empresas
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" routerLink="/sector-inmobiliario">Sector inmobiliario</a>
+          <a class="dropdown-item" routerLink="/seguros">Seguros</a>
+        </div>
+      </li>
+
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="/acerca-de">Acerca de</a>
+      </li>
+
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" routerLink="/contacto">Contacto</a>
+      </li>
+
+    </ul>
+    <button class="btn btn-outline-success">Iniciar sesión</button>
+
+  </div>
+</nav> -->
